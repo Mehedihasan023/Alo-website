@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Alo</title>
+        <!-- bootstarp -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="custom.css">
+
+    </head>
+    <body>
+        <nav>
+            <section>
+                <!-- navigation var -->
+                <div>
+                    <nav class="navbar navbar-light  fixed-top">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">
+                                                <H4>HOME</H4>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#services">
+                                                <H4>SERVICES
+                                                </H4>
+
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#portfolio">
+                                                <H4>PORTFOLI0</H4>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#Clients">
+                                                <H4>CLIENTS</H4>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#vision">
+                                                <H4>CAREER</H4>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#aboutus">
+                                                <H4>ABOUT US</H4>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact">
+                                                <H4>CONTACT</H4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- slider---------------------------- -->
+                <div>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img style="height: 400px" src="images/ClubAloBlogBanner_1200x.progressive.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>First slide label</h2>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 400px" src="images/delivery-yellow-pickup-carrying-parcels-points-city-skyline-skyscrapers-delivery-service-vector-modern-alo-style-website-banner-198580208.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Second slide label</h2>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 400px" src="images/AloTopBanner.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Third slide label</h2>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </nav>
+
+        <main>
+            <!-- 1st page -->
+            <section>
+                <div class="d-flex justify-content-center my-4 ">
+                    <h1>WHO WE ARE</h1>
+                </div>
+                <div class="container-fluid p-lg-5 p-md-3 p-sm-1 d-flex justify-content-center my-2 ">
+                    <div class="mb-1">
+                        <div class="row g-md-5 g-lg-5 g-sm-1">
+                            <div class="col-md-6">
+                                <img style="height:auto width 800px" src="images/AloTopBanner.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <h3 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                    <div class="mb-3">
+                        <div class="row g-md-5 g-lg-5 g-sm-1">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis asperiores error ipsum veniam sit. Sapiente dolore iusto enim maiores numquam nisi architecto, nulla reprehenderit magnam iure cumque.</h>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img style="height:auto width 800px" src="images/AloTopBanner.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container-fluid p-lg-5 p-md-3 p-sm-1 d-flex justify-content-center my-2 ">
+                    <div class="mb-1">
+                        <div class="row g-md-5 g-lg-5 g-sm-1">
+                            <div class="col-md-6">
+                                <img style="height:auto width 800px" src="images/AloTopBanner.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <h3 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                    <div class="mb-3">
+                        <div class="row g-md-5 g-lg-5 g-sm-1">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis asperiores error ipsum veniam sit. Sapiente dolore iusto enim maiores numquam nisi architecto, nulla reprehenderit magnam iure cumque.</h>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img style="height:auto width 800px" src="images/AloTopBanner.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- 2nd page ----------------------------->
+            <section id="services">
+                <div class="d-flex justify-content-center my-4 ">
+                    <h1>OUR SERVICES</h1>
+                </div>
+
+                <div>
+                    <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                        <div class="mb-3">
+                            <div class="row g-md-5 g-lg-5 g-sm-1">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">Card title</h2>
+                                        <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis
+                                        </h>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid rounded-start" style="height:auto width 600px" src="https://thumbs.dreamstime.com/b/services-concept-flat-line-design-icons-elements-modern-services-concept-s-collection-services-concept-lettering-thin-68961333.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                        <div class="mb-3">
+                            <div class="row g-md-5 g-lg-5 g-sm-1">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">Card title</h2>
+                                        <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis
+                                        </h>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid rounded-start" style="height:auto width 600px" src="images/ClubAloBlogBanner_1200x.progressive.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                        <div class="mb-3">
+                            <div class="row g-md-5 g-lg-5 g-sm-1">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">Card title</h2>
+                                        <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis
+                                        </h>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid rounded-start" style="height:auto width 600px" src="images/AloTopBanner.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                        <div class="mb-3">
+                            <div class="row g-md-5 g-lg-5 g-sm-1">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">Card title</h2>
+                                        <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis
+                                        </h>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid rounded-start" style="height:auto width 600px" src="https://thumbs.dreamstime.com/b/services-concept-flat-line-design-icons-elements-modern-services-concept-s-collection-services-concept-lettering-thin-68961333.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                        <div class="mb-3">
+                            <div class="row g-md-5 g-lg-5 g-sm-1">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">Card title</h2>
+                                        <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis
+                                        </h>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid rounded-start" style="height:auto width 600px" src="https://thumbs.dreamstime.com/b/services-concept-flat-line-design-icons-elements-modern-services-concept-s-collection-services-concept-lettering-thin-68961333.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container-fluid p-lg-5 p-md-5 p-sm-1 d-flex justify-content-center">
+                        <div class="mb-3">
+                            <div class="row g-md-5 g-lg-5 g-sm-1">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">Card title</h2>
+                                        <h3 class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat in, voluptas ut nesciunt at facere esse quos rerum libero unde reiciendis
+                                        </h>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid rounded-start" style="height:auto width 600px" src="https://thumbs.dreamstime.com/b/services-concept-flat-line-design-icons-elements-modern-services-concept-s-collection-services-concept-lettering-thin-68961333.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="our-services1">
+                    <h3>BENEFICIALS OF CLIENTS</h3>
+                    <p>REAL TIME DATA</p>
+                    <p>DIGITAL DASHBOARD</p>
+                    <p>TRACKING SCREEN LOCATION</p>
+                    <p>LIVE BROADCAST</p>
+                    <p>FIXED TIME ALLOCATION</p>
+                    <p>PACKAGE WISE ADS</p>
+                </div>
+                <div class="our-services2">
+                    <h3>WHAT WE DO TO DRAW VIEWERS ATTENTION</h3>
+                    <p>ENTERTAINMENT VIDEOS</p>
+                    <p>DIGITAL DASHBOARD</p>
+                    <p>AWERNESS CONTENTS</p>
+                    <p>LEARNING CONTENTS</p>
+                    <p>CLOCK</p>
+                    <p>POPPING UP NEXT ROUTE ON SCREEN</p>
+                </div>
+            </section>
+
+            <!-- 3rd page ---------------------------------- -->
+            <section id="portfolio">
+                <div class="d-flex justify-content-center my-4 ">
+                    <h1>OUR POPRTFOLIO</h1>
+                </div>
+                <div class="portfolio-images container">
+                    <div>
+                        <img src="/images/photo-1570125909232-eb263c188f7e.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/images/istockphoto-1264045165-170667a.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/images/photo-1570125909232-eb263c188f7e.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/images/car-photography-how-to.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/images/bus2-1544620347-c4fd4a3d5957.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/images/ClubAloBlogBanner_1200x.progressive.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/images/car-photography-how-to.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/images/ClubAloBlogBanner_1200x.progressive.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="container d-flex justify-content-start my-5 ">
+                    <h1>ACHIVEMENTS</h1>
+                </div>
+                <div class="achivements1">
+                    <div class="container achivements">
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Clients" class="d-flex justify-content-center my-5 ">
+                    <h1>OUR CLIENTS</h1>
+                </div>
+                <div class="clients1">
+                    <div class="container clients">
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="/images/r-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- 4th page -------------------------------- -->
+            <section>
+                <div id="aboutus" class="d-flex justify-content-center my-5 ">
+                    <h1>ABOUT US</h1>
+                </div>
+
+                <div class="container">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, fuga voluptatem! Blanditiis voluptate animi, alias deleniti saepe praesentium unde quam maxime mollitia recusandae quasi tempore voluptatum illo fuga distinctio pariatur doloremque rerum dignissimos ipsum perferendis incidunt. Suscipit at, iusto autem numquam illum cumque libero eum pariatur dolorum odit minus facilis maxime deserunt perferendis, porro accusantium enim quae ea ab quod possimus quo. Molestias necessitatibus sequi sed beatae nam magni ea quo mollitia asperiores. Totam deserunt fugiat ipsum cumque beatae quod ea qui ipsam quaerat, nostrum delectus numquam quae expedita? Rem, esse quos? Molestiae hic saepe quod fugiat iste voluptas. Autem, quia. Tempora recusandae voluptates sed eum maxime repellendus, voluptatum neque exercitationem porro esse dolorem dicta quisquam ullam cumque reprehenderit necessitatibus sequi. Assumenda vel quaerat a sequi quo? Ratione voluptatum totam illo numquam culpa impedit minima dicta nihil magni earum maxime optio porro quidem exercitationem quae neque, aut deleniti saepe! Excepturi veniam deserunt veritatis ex. Nesciunt modi accusantium, nobis ut corrupti quas placeat consectetur veniam. Consectetur consequuntur iste alias nam incidunt, culpa voluptate eos aliquam architecto repellat voluptatibus nisi. Eaque, deserunt velit commodi fugit perspiciatis aut nihil ipsam unde illo exercitationem. Vitae voluptatum iste sequi laborum vel laudantium quidem quas corrupti!</h4>
+                </div>
+
+
+                <div id="vision" class="d-flex justify-content-center my-5 ">
+                    <h1>VISION</h1>
+                </div>
+
+                <div class="container border border-dark p-4">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, fuga voluptatem! Blanditiis voluptate animi, alias deleniti saepe praesentium unde quam maxime mollitia recusandae quasi tempore voluptatum illo fuga distinctio pariatur doloremque rerum dignissimos ipsum perferendis incidunt. Suscipit at, iusto autem numquam illum cumque libero eum pariatur dolorum odit minus facilis maxime deserunt perferendis, porro accusantium enim quae ea ab quod possimus quo. Molestias necessitatibus sequi sed beatae nam magni ea quo mollitia asperiores. Totam deserunt fugiat ipsum cumque beatae quod ea qui ipsam quaerat, nostrum delectus numquam quae expedita? Rem, esse quos? Molestiae hic saepe quod fugiat iste voluptas. Autem, quia. Tempora recusandae voluptates sed eum maxime repellendus, voluptatum neque exercitationem porro esse dolorem dicta quisquam ullam cumque reprehenderit necessitatibus sequi. Assumenda vel quaerat a sequi quo? Ratione voluptatum totam illo numquam culpa impedit minima dicta nihil magni earum maxime optio porro quidem exercitationem quae neque, aut deleniti saepe! Excepturi veniam deserunt veritatis ex. Nesciunt modi accusantium, nobis ut corrupti quas placeat consectetur veniam. Consectetur consequuntur iste alias nam incidunt, culpa voluptate eos aliquam architecto repellat voluptatibus nisi. Eaque, deserunt velit commodi fugit perspiciatis aut nihil ipsam unde illo exercitationem. Vitae voluptatum iste sequi laborum vel laudantium quidem quas corrupti!</h4>
+                </div>
+                <div id="contact" class="d-flex justify-content-center my-5 ">
+                    <h1>CONTACT US</h1>
+                </div>
+                <div class="container my-3">
+                    <div class="map ">
+                        <div>
+                            <h2 class="card-title">CONTACT US</h2>
+                            <h3 class="card-title">our phone numbers</h3>
+                            <h3 class="card-title">OUR LOCATION</h3>
+
+                            <h3 class="card-text"></h3>
+                        </div>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.3534451109354!2d90.31877245080395!3d23.87708238445118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ada2664e21%3A0x3c872fd17bc11ddb!2sDaffodil%20International%20University!5e0!3m2!1sen!2sin!4v1633190116285!5m2!1sen!2sin" class="map1" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+
+        </main>
+
+        <!-- js bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>
